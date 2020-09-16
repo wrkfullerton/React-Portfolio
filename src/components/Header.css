@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+    border-bottom: 1px solid lightgray;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    z-index: 100%;
+}
+
+.header__title {
+    margin-right: 20px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;   
+}
+
+.header__option {
+    right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header__link {
+    text-decoration: none;
+    color: black;
+}

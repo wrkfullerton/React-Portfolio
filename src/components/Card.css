@@ -1,18 +1,25 @@
 .card {
     margin: 10px;
     background-color: white;
-    padding: 50px;
+    padding: 50px 50px 20px;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+    transition: transform 100ms ease-in;
+    cursor: pointer;
     
+}
+
+.card:hover {
+    transform: scale(1.07);
 }
 
 .card__container > img {
     max-width: 100px;
 }
 
-.card__infoBottom > button {
+.card__infoBottom > a > button {
     background-color: cornflowerblue;
     padding: 10px;
     border-radius: 20px;
@@ -30,4 +37,16 @@
     font-size: 12px;
     font-weight: 800;
     margin-bottom: 10px;
+}
+
+.card__infoTop > h2 {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card__infoBottom > p {    
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }

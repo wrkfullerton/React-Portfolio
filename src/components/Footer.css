@@ -1,0 +1,6 @@
+.footer {
+    background-color: lightgray;
+    padding: 10px;
+    z-index: 0;
+    bottom: 0;
+}
